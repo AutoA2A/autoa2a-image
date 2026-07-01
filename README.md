@@ -1,21 +1,10 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: 6a7c75cb3fb0f1e82cbcadb0e79763b3_08a4b5c5750411f1b2f55254006c9bbf
-    ReservedCode1: fhms8wcPROTvCjVP5ukCbtFsRtZT1NbzGW2BJTpTJy3jATZ8Ud+3wPy34nGPHtfsJGlssjpnBxQjQF7hlYNhM/aPuuLB/rLHFGXLps68XV1rJEsKQ7PTlBWy5goGHL4F5915KR39PUQI5a8RJH8NMjsDwTB9GVOREyP9wqMhLb8HfBtT6VVdI+/3YVw=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: 6a7c75cb3fb0f1e82cbcadb0e79763b3_08a4b5c5750411f1b2f55254006c9bbf
-    ReservedCode2: fhms8wcPROTvCjVP5ukCbtFsRtZT1NbzGW2BJTpTJy3jATZ8Ud+3wPy34nGPHtfsJGlssjpnBxQjQF7hlYNhM/aPuuLB/rLHFGXLps68XV1rJEsKQ7PTlBWy5goGHL4F5915KR39PUQI5a8RJH8NMjsDwTB9GVOREyP9wqMhLb8HfBtT6VVdI+/3YVw=
----
+﻿# GPT Image 2 提示词深度指南
 
-# GPT Image 2 提示词深度指南
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+基于 [EvoLinkAI/awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) 仓库整理的中文版提示词指南，收录 **291 精选案例**（均为真实生成图片），覆盖 7 大类别。
 
-基于 [EvoLinkAI/awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) 仓库整理的中文版提示词指南，收录 291 精选案例（均为真实生成图片），覆盖 7 大类别。
-
-> 在线浏览：[提示词社区](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) | 来源站点：[www.autoa2a.org](https://www.autoa2a.org)
+> 在线浏览：[在线浏览](https://autoa2a.github.io/autoa2a-image/) | 来源站点：[www.autoa2a.org](https://www.autoa2a.org)
 
 ---
 
@@ -68,7 +57,7 @@ AIGC:
 - 一个 API 调用同时完成生成和编辑
 - 比之前模型更强的提示词遵循度
 - 原生支持宽高比、透明度和批量生成
-- 兼容 OpenAI 标准 API 格式（`/v1/images/generations`）
+- 兼容 OpenAI 标准 API 格式（/v1/images/generations）
 
 ---
 
@@ -99,13 +88,13 @@ AIGC:
 
 前往 [gpt-image-2-gen-skill](https://github.com/EvoLinkAI/gpt-image-2-gen-skill) 仓库：
 
-```bash
+`ash
 npx evolink-gpt-image -y
-```
+`
 
 ### 快速连接 API
 
-```bash
+`ash
 curl --request POST \
   --url https://api.evolink.ai/v1/images/generations \
   --header 'Authorization: Bearer YOUR_API_KEY' \
@@ -114,7 +103,7 @@ curl --request POST \
   "model": "gpt-image-2",
   "prompt": "A beautiful colorful sunset over the ocean"
 }'
-```
+`
 
 - [获取 API Key](https://api.evolink.ai)
 - [阅读 API 文档](https://docs.evolink.ai)
